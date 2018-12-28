@@ -1,0 +1,33 @@
+*{
+	box-sizing: inherit;
+}
+html{ 
+	width: 100%;
+	height: 100%;
+	font-size: 62.5%; // 1rem=10px; 16px -lin 62.5% -i = 10px=1rem
+
+	/* @include respondmax(md){
+		font-size: 40%;
+	} 
+
+	@include respondmin(md){
+		font-size: 40%;
+	} 
+
+	@include respondmin(lg){
+		font-size: 56.25%; 
+	} 
+
+	@include respondmin(xl){
+		font-size: 62.5% ; //1rem=12px
+	}		 */
+
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+
+}
+
