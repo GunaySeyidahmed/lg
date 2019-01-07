@@ -121,13 +121,177 @@ body {
      -moz-box-sizing: border-box;
           box-sizing: border-box; }
 
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px; } }
+
 .azn {
   font-family: jaznb; }
+
+.py-10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
 
 @font-face {
   font-family: jaznb;
   src: url("../../fonts/jaznb.eot");
   src: url("../../fonts/jaznb.eot?#iefix") format("embedded-opentype"), url("../../fonts/jaznb.woff2") format("woff2"), url("../../fonts/jaznb.woff") format("woff"), url("../../fonts/jaznb.ttf") format("truetype"), url("../../fonts/jaznb.svg#jaznb") format("svg"); }
+
+.search {
+  margin-right: 5px; }
+  .search .form-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 0; }
+    .search .form-group .form-control {
+      background-color: transparent;
+      border: none;
+      -webkit-border-radius: 0;
+         -moz-border-radius: 0;
+              border-radius: 0;
+      font-size: 1.4rem;
+      width: 0;
+      -webkit-transition: width 1s;
+      -o-transition: width 1s;
+      -moz-transition: width 1s;
+      transition: width 1s;
+      color: #fff; }
+      .search .form-group .form-control:focus {
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none; }
+      .search .form-group .form-control::-webkit-input-placeholder {
+        color: #fff; }
+      .search .form-group .form-control:-moz-placeholder {
+        color: #fff; }
+      .search .form-group .form-control::-moz-placeholder {
+        color: #fff; }
+      .search .form-group .form-control:-ms-input-placeholder {
+        color: #fff; }
+      .search .form-group .form-control::placeholder {
+        color: #fff; }
+  .search__open {
+    width: 180px !important;
+    border-bottom: 1px solid #fff !important; }
+  .search__btn {
+    background-color: transparent; }
+    .search__btn:focus {
+      -webkit-box-shadow: none;
+         -moz-box-shadow: none;
+              box-shadow: none; }
+  .search__icon {
+    color: #fff;
+    font-size: 1.4rem; }
+
+.social {
+  height: 40px;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 767px) {
+    .social {
+      display: none; } }
+  .social__item {
+    display: inline-block;
+    margin-right: 10px; }
+  .social__icon {
+    font-size: 1.4rem;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    border: 1px solid #fff;
+    line-height: 25px;
+    text-align: center;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition: all .4s; }
+    .social__icon:hover {
+      color: #2b204b;
+      background-color: #fff;
+      width: 25px;
+      height: 25px;
+      border-color: #2b204b; }
+
+.language__link {
+  font-size: 1.6rem;
+  text-decoration: none !important; }
+
+.language__icon {
+  color: #fff;
+  margin-right: 3px; }
+
+.language__text {
+  color: #fff;
+  font-size: 1.4rem; }
+
+.header__top {
+  height: 40px;
+  background-color: #2b204b;
+  float: left;
+  width: 100%; }
+
+.header__searchLang {
+  height: 40px;
+  margin-bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header__slider {
+  clear: both; }
+  .header__slider .item {
+    height: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .header__slider .owl-nav, .header__slider .owl-dots {
+    display: none; }
+
+.header__sliderImg {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 /*! Gunay Memmedli  25 Oktyabr 2018  https://github.com/GunaySeyidahmed/ */
 /* ==========================================================================

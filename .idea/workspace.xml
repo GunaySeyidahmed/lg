@@ -1,7 +1,586 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20b12d57-f279-426a-b0f3-b196a44b31d9" name="Default Changelist" comment="" />
+    <list default="true" id="20b12d57-f279-426a-b0f3-b196a44b31d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/frq-templates/css/components/_language.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frq-templates/css/components/_search.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frq-templates/css/components/_social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frq-templates/libs/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frq-templates/libs/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frq-templates/libs/owl-carousel/owl.theme.default.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/css/main/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/css/main/main.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/fonts/jaznb.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/fonts/jaznb.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/fonts/jaznb.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/fonts/jaznb.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/fonts/jaznb.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/img/005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/js/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/CODE_OF_CONDUCT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/breakpoints.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/browser-bugs.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/browser-features.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/colors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/examples.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/grays.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/nav.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/theme-colors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_data/translations.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/ads.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/bugify.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/callout-danger-async-methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/callout-info-mediaqueries-breakpoints.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/callout-warning-color-assistive-technologies.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/callout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/docs-navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/docs-sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/favicons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/bootstrap.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/download.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/import.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/lightning.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/slack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/icons/twitter.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/skippy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_includes/social.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_layouts/docs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_layouts/examples.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_layouts/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_layouts/redirect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/_layouts/simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/brand/bootstrap-outline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/brand/bootstrap-punchout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/brand/bootstrap-social-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/brand/bootstrap-social.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/brand/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/css/docs.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/css/docs.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/bootstrap-stack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/bootstrap-themes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/mstile-144x144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/mstile-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/mstile-310x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/mstile-310x310.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/mstile-70x70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/img/favicons/safari-pinned-tab.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/docs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/src/application.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/src/ie-emulation-modes-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/src/pwa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/vendor/anchor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/vendor/clipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/vendor/holder.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/vendor/jquery-slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/js/vendor/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_ads.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_algolia.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_anchor.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_brand.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_browser-bugs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_callouts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_clipboard-js.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_component-examples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_examples.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_skiplink.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_syntax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/assets/scss/docs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/change-version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/gcp-key.json.enc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/generate-sri.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/lint-vars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/postcss.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/rollup.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/sauce_browsers.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/saucelabs-unit-test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/ship.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/upload-preview.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/vnu-jar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/workbox.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/build/workbox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/about/brand.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/about/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/about/overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/about/translations.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/browser-bugs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/alerts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/badge.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/breadcrumb.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/button-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/buttons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/card.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/carousel.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/collapse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/dropdowns.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/forms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/input-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/jumbotron.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/list-group.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/modal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/navbar.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/navs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/pagination.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/popovers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/progress.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/scrollspy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/components/tooltips.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/content/code.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/content/figures.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/content/images.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/content/reboot.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/content/tables.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/content/typography.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/album/album.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/album/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/blog/blog.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/carousel/carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/carousel/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/checkout/form-validation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/checkout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/cover/cover.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/cover/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/dashboard/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/floating-labels/floating-labels.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/floating-labels/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/grid/grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/grid/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/jumbotron/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/jumbotron/jumbotron.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbar-bottom/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbar-fixed/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbar-fixed/navbar-top-fixed.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbar-static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbar-static/navbar-top.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbars/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/navbars/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/offcanvas/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/offcanvas/offcanvas.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/offcanvas/offcanvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/pricing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/pricing/pricing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/product/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/product/product.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/album.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/blog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/carousel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/checkout.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/dashboard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/floating-labels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/grid.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/jumbotron.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/navbar-bottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/navbar-fixed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/navbar-static.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/navbars.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/offcanvas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/pricing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/sign-in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/starter-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/sticky-footer-navbar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/screenshots/sticky-footer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/sign-in/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/sign-in/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/starter-template/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/starter-template/starter-template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/sticky-footer-navbar/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/sticky-footer/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/sticky-footer/sticky-footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/tooltip-viewport/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/tooltip-viewport/tooltip-viewport.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/examples/tooltip-viewport/tooltip-viewport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/extend/approach.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/extend/icons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/extend/index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/accessibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/best-practices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/browsers-devices.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/build-tools.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/contents.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/download.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/introduction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/javascript.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/theming.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/getting-started/webpack.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/layout/grid.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/layout/media-object.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/layout/overview.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/layout/utilities-for-layout.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/migration.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/borders.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/clearfix.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/close-icon.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/colors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/display.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/embed.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/flex.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/float.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/image-replacement.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/position.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/screenreaders.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/shadows.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/sizing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/spacing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/text.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/vertical-align.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/docs/4.1/utilities/visibility.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/alert.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/carousel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/collapse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/modal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/popover.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/tab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/tooltip.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/dist/util.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/src/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/karma-bundle.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/unit/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/alert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/carousel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/collapse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/dropdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/popover.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/scrollspy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/tab.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/js/tests/visual/tooltip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/nuget/MyGet.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/nuget/bootstrap.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/nuget/bootstrap.sass.nuspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/package.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/sache.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/bootstrap/sw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/ion-slider/ion.rangeSlider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/ion-slider/ion.rangeSlider.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/ion-slider/ion.rangeSlider.skinHTML5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/ion-slider/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/frq-templates/libs/normalize.css/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/css/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/css/abstracts/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/css/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/css/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/css/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/css/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/js/main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/js/main/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/header.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -291,93 +870,157 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1507649495">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="bowerrc" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="9" />
+          <entry key="js" value="5" />
+          <entry key="json" value="2" />
+          <entry key="scss" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="9" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="5" />
+          <entry key="SCSS" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="639" />
+          <entry key="js" value="449" />
+          <entry key="scss" value="901" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="639" />
+          <entry key="JavaScript" value="449" />
+          <entry key="SCSS" value="901" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1931">
-              <caret line="62" column="20" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_footer.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_navigation.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/frq-templates/css/pages/page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/frq-templates/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/template/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/template/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/template/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.27074236">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/template/header.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+                  <folding>
+                    <element signature="n#ul#1;n#div#0;n#div#0;n#header#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+                    <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_base.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="748">
+                  <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="66">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/template/head.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="770">
+                  <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="594">
+                  <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_typography.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                  <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/css/main.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/css/components/_language.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="66">
+                  <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/js/main/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-88">
+                  <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -434,21 +1077,28 @@
         <option value="$PROJECT_DIR$/src/css/abstracts/_bt5start.scss" />
         <option value="$PROJECT_DIR$/src/css/main.scss" />
         <option value="$PROJECT_DIR$/src/css/pages/page.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/template/footer.html" />
-        <option value="$PROJECT_DIR$/src/template/header.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/css/pages/page.scss" />
-        <option value="$PROJECT_DIR$/src/frq-templates/css/main.scss" />
         <option value="$PROJECT_DIR$/src/frq-templates/css/abstracts/_mixin.scss" />
-        <option value="$PROJECT_DIR$/src/frq-templates/css/base/_base.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/frq-templates/css/abstracts/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/components/_social.scss.css" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/components/_social.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/main.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/components/_search.scss" />
         <option value="$PROJECT_DIR$/src/template/head.html" />
+        <option value="$PROJECT_DIR$/src/template/footer.html" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/base/_typography.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/components/_language.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/css/base/_base.scss" />
+        <option value="$PROJECT_DIR$/src/template/header.html" />
+        <option value="$PROJECT_DIR$/src/frq-templates/js/main/main.js" />
       </list>
     </option>
   </component>
@@ -477,7 +1127,7 @@
       <path value="$PROJECT_DIR$/src/frq-templates/libs/normalize.css/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1300" />
@@ -489,34 +1139,81 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="wna" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wna" type="462c0819:PsiDirectoryNode" />
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wna" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wna" type="462c0819:PsiDirectoryNode" />
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wna" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wna" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wna" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wna" type="462c0819:PsiDirectoryNode" />
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="wna" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wna" type="462c0819:PsiDirectoryNode" />
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lgg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lgg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -524,26 +1221,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xamp\htdocs\projects\l\lgg\src\frq-templates\libs\owl-carousel" />
+      <recent name="C:\xampp\htdocs\f\discover\src\fonts\fira sans" />
+      <recent name="C:\xampp\htdocs\f\discover\src\libs\ion-slider" />
+      <recent name="C:\xampp\htdocs\frontend\G\src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xamp\htdocs\projects\wna\src\frq-templates\img" />
       <recent name="C:\xampp\htdocs\frontend\Discover\src\css\pages" />
       <recent name="C:\xampp\htdocs\frontend\G\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\f\discover\src\fonts\fira sans" />
-      <recent name="C:\xampp\htdocs\f\discover\src\libs\ion-slider" />
-      <recent name="C:\xampp\htdocs\frontend\G\src\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -608,22 +1306,25 @@
       <workItem from="1540481840055" duration="1474000" />
       <workItem from="1544977716042" duration="208000" />
       <workItem from="1544977994381" duration="4722000" />
+      <workItem from="1546771064630" duration="24026000" />
+      <workItem from="1546840442278" duration="7081000" />
+      <workItem from="1546853705334" duration="2158000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192919000" />
+    <option name="totallyTimeSpent" value="226184000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.2247191" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.09187046" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49834764" weight="0.2964539" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50165236" side_tool="true" weight="0.30070922" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4976867" visible="true" weight="0.33617023" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50231326" side_tool="true" weight="0.33758864" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -640,11 +1341,11 @@
     <layout-to-restore>
       <window_info id="Gulp" order="0" side_tool="true" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.0548579" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.04494382" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49834764" visible="true" weight="0.2964539" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50165236" side_tool="true" weight="0.30070922" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4976867" visible="true" weight="0.33758864" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50231326" side_tool="true" visible="true" weight="0.33758864" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -666,145 +1367,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/product-detail.html" />
-    <entry file="file://$PROJECT_DIR$/src/img/twitter.svg" />
-    <entry file="file://$PROJECT_DIR$/build/js/all.min.js" />
-    <entry file="file://$PROJECT_DIR$/build/css/main/main.css" />
-    <entry file="file://$PROJECT_DIR$/src/libs/ion-slider/ion.rangeSlider.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/ion-slider/ion.rangeSlider.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/ion-slider/ion.rangeSlider.min.js" />
     <entry file="file://$PROJECT_DIR$/src/css/pages/index.scss" />
-    <entry file="file://$PROJECT_DIR$/src/css/layout/_navigation.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/components/_generalComponents.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_function.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/pages/page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_bt5end.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3547">
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_bt5start.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/base/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/base/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/base/_utilities.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/main/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/libs/jquery/dist/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ftr/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="32" column="44" lean-forward="true" selection-end-line="173" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/layout/_navigation.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/layout/_header.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/layout/_footer.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/components/_generalComponents.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_function.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/pages/page.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_mixin.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_variables.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_bt5end.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/abstracts/_bt5start.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/base/_base.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/base/_fonts.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/base/_typography.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/base/_utilities.scss" />
+    <entry file="file://$PROJECT_DIR$/src/css/main.scss" />
+    <entry file="file://$PROJECT_DIR$/src/js/main/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/libs/jquery/dist/core.js" />
+    <entry file="file://$PROJECT_DIR$/../ftr/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/js/main/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -835,13 +1421,6 @@
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/abstracts/_function.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/abstracts/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/abstracts/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -849,17 +1428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="636">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_typography.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_utilities.scss">
@@ -868,58 +1437,146 @@
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_footer.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_navigation.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/css/pages/page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1931">
-          <caret line="62" column="20" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="20" />
+        <state relative-caret-position="308">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/abstracts/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/components/_search.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/libs/owl-carousel/owl.carousel.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/libs/owl-carousel/owl.theme.default.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/components/_social.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="n#ul#1;n#div#0;n#div#0;n#header#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#header#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/css/components/_language.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/js/main/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>

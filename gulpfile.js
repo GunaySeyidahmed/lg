@@ -35,12 +35,12 @@ var path = {
     },
     watch: { //Burada izlemek istediğimiz dosyaları belirtiyoruz
         html: 'src/**/*.html',
-        js: 'src/js/main/*.js',
-        vendor: 'src/js/vendor/*.js',
-        css: 'src/css/**/*.scss',
-        images: 'src/img/**/*.*',
-        fonts: 'src/fonts/**/*.*',
-        libs: 'src/libs/'
+        js: 'src/frq-templates/js/main/*.js',
+        vendor: 'src/frq-templates/js/vendor/*.js',
+        css: 'src/frq-templates/css/**/*.scss',
+        images: 'src/frq-templates/img/**/*.*',
+        fonts: 'src/frq-templates/fonts/**/*.*',
+        libs: 'src/frq-templates/libs/'
     },
 };
 

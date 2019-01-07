@@ -1,0 +1,14 @@
+.language{
+  &__link{
+    font-size: 1.6rem;
+    text-decoration: none !important;
+  }
+  &__icon{
+    color: $white;
+    margin-right: 3px;
+  }
+  &__text{
+    color: $white;
+    font-size: 1.4rem;
+  }
+}

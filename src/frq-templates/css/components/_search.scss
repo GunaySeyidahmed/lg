@@ -1,0 +1,38 @@
+.search{
+  margin-right: 5px;
+  .form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    .form-control{
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      font-size: 1.4rem;
+      width: 0;
+      transition: width 1s;
+      color: $white;
+      &:focus{
+        box-shadow: none;
+      }
+      &::placeholder{
+        color: $white;
+      }
+    }
+  }
+
+  &__open{
+    width: 180px !important;
+    border-bottom: 1px solid $white !important;
+  }
+  &__btn{
+    background-color: transparent;
+    &:focus{
+      box-shadow: none;
+    }
+  }
+  &__icon{
+    color: $white;
+    font-size: 1.4rem;
+  }
+}
