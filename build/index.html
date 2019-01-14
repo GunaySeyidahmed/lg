@@ -32,6 +32,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="frq-templates/libs/burger/hamburger.css">
     <link rel="stylesheet" href="frq-templates/libs/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="frq-templates/libs/owl-carousel/owl.theme.default.min.css">
     <link rel="stylesheet" href="frq-templates/css/main/main.min.css">
@@ -43,29 +44,36 @@
 <header class="header">
     <div class="header__top">
         <div class="container">
-            <ul class="social float-left">
-                <li class="social__item"><a href="#"><i class="fa fa-facebook social__icon"></i></a></li>
-                <li class="social__item"><a href="#"><i class="fa fa-twitter social__icon"></i></a></li>
-                <li class="social__item"><a href="#"><i class="fa fa-youtube social__icon"></i></a></li>
-            </ul>
-            <ul class="header__searchLang float-right">
-                <li class="search d-inline-block">
-                    <form action="#" class="form-inline search__form">
-                        <div class="form-group">
-                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn search__btn" type="submit">
-                                <i class="fa fa-search search__icon"></i>
-                            </button>
-                        </div>
-                    </form>
-                </li>
-                <li class="language d-inline-block">
-                    <a href="#" class="language__link d-flex align-items-center">
-                        <i class="fa fa-globe language__icon"></i>
-                        <span class="language__text">AZ</span>
-                    </a>
-                </li>
-            </ul>
+            <button class="hamburger hamburger--collapse hamburger--arrow header__toggle-btn" type="button">
+                  <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    <span class="hamburger-inner"></span>
+                    <span class="hamburger-inner"></span>
+                  </span>
+            </button>
+            <ul class="social">
+                    <li class="social__item"><a href="#"><i class="fa fa-facebook social__icon"></i></a></li>
+                    <li class="social__item"><a href="#"><i class="fa fa-twitter social__icon"></i></a></li>
+                    <li class="social__item"><a href="#"><i class="fa fa-youtube social__icon"></i></a></li>
+                </ul>
+            <ul class="header__searchLang">
+                    <li class="search d-inline-block">
+                        <form action="#" class="form-inline search__form">
+                            <div class="form-group">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn search__btn" type="submit">
+                                    <i class="fa fa-search search__icon"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="language d-inline-block">
+                        <a href="#" class="language__link d-flex align-items-center">
+                            <i class="fa fa-globe language__icon"></i>
+                            <span class="language__text">AZ</span>
+                        </a>
+                    </li>
+                </ul>
         </div>
     </div>
     <div class="header__slider py-10">
@@ -104,9 +112,363 @@
             </div>
         </div>
     </div>
+    <div class="menu">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent menu__nav">
+                <a class="navbar-brand float-left" href="#">
+                    <img src="../frq-templates/img/header_logo.png" alt="header logo">
+                </a>
+                <div class="menu__list">
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link white-text middle-text mr-10 menu__active" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item menu__dropdown">
+                            <a class="nav-link white-text middle-text mr-10 menu__dropdownToggle" href="javascript:void(0)" role="button" data-toggle="menu__dropdownToggle">ABOUT US </a>
+                            <div class="menu__dropdownContent">
+                                    <a class="menu__dropdown-link" href="#">
+                                        HEAD OF SCHOOL WELCOME
+                                    </a>
+                                    <a class="menu__dropdown-link" href="#">
+                                        GUIDING STATEMENTS
+                                    </a>
+                                    <a class="menu__dropdown-link" href="#">
+                                        ACCREDITATIONS AND AUTHORISATIONS
+                                    </a>
+                                    <a class="menu__dropdown-link" href="#">
+                                        HEAD OF SCHOOL WELCOME
+                                    </a>
+                                    <a class="menu__dropdown-link" href="#">
+                                        GUIDING STATEMENTS
+                                    </a>
+                                    <a class="menu__dropdown-link" href="#">
+                                        ACCREDITATIONS AND AUTHORISATIONS
+                                    </a>
+                                </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text middle-text mr-10" href="#">ADMISSIONS</a>
+                        </li>
+                        <li class="nav-item menu__dropdown">
+                            <a class="nav-link white-text middle-text mr-10 menu__dropdownToggle" href="javascript:void(0)" role="button" data-toggle="menu__dropdownToggle">ACADEMICS</a>
+                            <div class="menu__dropdownContent">
+                                <a class="menu__dropdown-link" href="#">
+                                    HEAD OF SCHOOL WELCOME
+                                </a>
+                                <a class="menu__dropdown-link" href="#">
+                                    GUIDING STATEMENTS
+                                </a>
+                                <a class="menu__dropdown-link" href="#">
+                                    ACCREDITATIONS AND AUTHORISATIONS
+                                </a>
+                                <a class="menu__dropdown-link" href="#">
+                                    HEAD OF SCHOOL WELCOME
+                                </a>
+                                <a class="menu__dropdown-link" href="#">
+                                    GUIDING STATEMENTS
+                                </a>
+                                <a class="menu__dropdown-link" href="#">
+                                    ACCREDITATIONS AND AUTHORISATIONS
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text middle-text mr-10" href="#">BEYOND ACADEMICS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text middle-text mr-10" href="#">FACILITIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link white-text middle-text" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
 </header>
 <main>
+    <section class="slider owl-carousel owl-theme">
+        <div class="slider__item">
+                <div class="slider__overlay"></div>
+                <img src="frq-templates/img/home-slider1.png" alt="home slider" class="slider__img">
+                    <div class="container">
+                        <div class="slider__info text-center">
+                            <h1 class="slider__title white-text large-text mb-10">Education is the moich you use to change the world</h1>
+                            <p class="slider__description white-text mb-15">
+                                “Do not train a child to learn by force or harshness; but direct them to it by what
+                                amuses their minds, so that you may be better able to discover with accuracy the
+                                peculiar bent of the genius of each.”
+                            </p>
+                            <a href="#" class="slider__link white-text middle-text bg-darkRed d-inline-block text-center px-55">Read more</a>
+                        </div>
+                    </div>
+            </div>
+        <div class="slider__item">
+            <div class="slider__overlay"></div>
+            <img src="frq-templates/img/home-slider2.png" alt="home slider" class="slider__img">
+            <div class="container">
+                <div class="slider__info text-center">
+                    <h1 class="slider__title white-text large-text mb-10">Education is the moich you use to change the world</h1>
+                    <p class="slider__description white-text mb-15">
+                        “Do not train a child to learn by force or harshness; but direct them to it by what
+                        amuses their minds, so that you may be better able to discover with accuracy the
+                        peculiar bent of the genius of each.”
+                    </p>
+                    <a href="#" class="slider__link white-text middle-text bg-darkRed d-inline-block text-center px-55">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+            <div class="slider__overlay"></div>
+            <img src="frq-templates/img/home-slider3.png" alt="home slider" class="slider__img">
+            <div class="container">
+                <div class="slider__info text-center">
+                    <h1 class="slider__title white-text large-text mb-10">Education is the moich you use to change the world</h1>
+                    <p class="slider__description white-text mb-15">
+                        “Do not train a child to learn by force or harshness; but direct them to it by what
+                        amuses their minds, so that you may be better able to discover with accuracy the
+                        peculiar bent of the genius of each.”
+                    </p>
+                    <a href="#" class="slider__link white-text middle-text bg-darkRed d-inline-block text-center px-55">Read more</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider__item">
+                <div class="slider__overlay"></div>
+                <img src="frq-templates/img/home-slider4.png" alt="home slider" class="slider__img">
+                <div class="container">
+                    <div class="slider__info text-center">
+                        <h1 class="slider__title white-text large-text mb-10">Education is the moich you use to change the world</h1>
+                        <p class="slider__description white-text mb-15">
+                            “Do not train a child to learn by force or harshness; but direct them to it by what
+                            amuses their minds, so that you may be better able to discover with accuracy the
+                            peculiar bent of the genius of each.”
+                        </p>
+                        <a href="#" class="slider__link white-text middle-text bg-darkRed d-inline-block text-center px-55">Read more</a>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="mission py-90">
+        <div class="container">
+            <h1 class="page__title page__title--color page__title--font text-center text-uppercase mb-25">
+                <span class="page__title-purple">Our Mission</span>
+            </h1>
+            <div  class="mission__info text-center mb-80">
+                    Baku Oxford School offers an international and intercultural perspective of the world where
+                    students’ unique qualities are valued and learner differences accommodated. Life-long learning
+                    and leadership is fostered through self-motivation, creativity and critical thinking.
+            </div>
+            <div class="mission__slider owl-carousel owl-theme">
+                    <div class="mission__item mission__item--border mission__item--border-radius text-center">
+                        <div class="mission__media">
+                            <img src="frq-templates/img/mission-item-2.png" alt="mission item img" class="mission__img">
+                        </div>
+                        <h3 class="mission__title mb-30">Confident</h3>
+                        <p class="mission__description">
+                            In teaching their subject and engaging each student in learning.
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="education py-90">
+        <div class="container">
+            <h1 class="page__title page__title--font text-center text-uppercase mb-25 text-white">
+                <span class="page__title-white">Education</span>
+            </h1>
+            <div  class="education__info text-center mb-30">
+                Baku Oxford School offers an international and intercultural perspective of the
+                world where students’ unique qualities are valued and learner differences
+                accommodated. Life-long learning and leadership is fostered through self-motivation,
+                creativity and critical thinking
+            </div>
+            <div class="education__slider owl-carousel owl-theme">
+                <div class="education__item text-center text-white">
+                    <div class="education___media mb-25">
+                        <img src="frq-templates/img/education1.png" alt="education img" class="education__img">
+                    </div>
+                    <h3 class="education__title text-uppercase mb-25">Early Years Foundation Stage</h3>
+                    <p class="education__description">Welcome to Early Years Foundation Stage at Baku Oxford School</p>
+                    <a class="education__link mx-auto">READ MORE</a>
+                </div>
+                <div class="education__item text-center text-white">
+                    <div class="education___media mb-25">
+                        <img src="frq-templates/img/education2.png" alt="education img" class="education__img">
+                    </div>
+                    <h3 class="education__title text-uppercase mb-25">PRIMARY SCHOOL</h3>
+                    <p class="education__description">Welcome to the Primary School at Baku Oxford School. Our Primary School extends from Grade 1 to Grade 5</p>
+                    <a class="education__link mx-auto">READ MORE</a>
+                </div>
+                <div class="education__item text-center text-white">
+                    <div class="education___media mb-25">
+                        <img src="frq-templates/img/education2.png" alt="education img" class="education__img">
+                    </div>
+                    <h3 class="education__title text-uppercase mb-25">Secondary school</h3>
+                    <p class="education__description">Welcome to the Primary School at Baku Oxford School. Our Primary School extends from Grade 1 to Grade 5</p>
+                    <a class="education__link mx-auto">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="event py-90">
+        <div class="container">
+            <h1 class="page__title page__title--color page__title--font text-center text-uppercase mb-25">
+                <span class="page__title-purple">Events</span>
+            </h1>
 
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="news py-90">
+        <div class="container">
+            <h1 class="page__title page__title--color page__title--font text-center text-uppercase mb-25">
+                <span class="page__title-purple">News</span>
+            </h1>
+
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="statistics">
+        <div class="container">
+            <div class="statistics__slider owl-carousel">
+                <div class="statistics__item text-center">
+                    <p class="statistics__count" data-count="345">0</p>
+                    <img src="frq-templates/img/statistic.png" alt="statics img">
+                    <p class="statistics__text">Primary</p>
+                </div>
+                <div class="statistics__item text-center">
+                    <p class="statistics__count" data-count="247">0</p>
+                    <img src="frq-templates/img/statistic.png" alt="statics img">
+                    <p class="statistics__text">Student</p>
+                </div>
+                <div class="statistics__item text-center">
+                    <p class="statistics__count" data-count="432">0</p>
+                    <img src="frq-templates/img/statistic.png" alt="statics img">
+                    <p class="statistics__text">High</p>
+                </div>
+                <div class="statistics__item text-center">
+                    <p class="statistics__count" data-count="323">0</p>
+                    <img src="frq-templates/img/statistic.png" alt="statics img">
+                    <p class="statistics__text">Graduated</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="clearfix"></div>
+    <section class="instagram py-90">
+        <h1 class="page__title page__title--color page__title--font text-center text-uppercase mb-25">
+                <span><img src="frq-templates/img/insta-logo.png" alt="insta logo"></span>
+            </h1>
+        <h2 class="instagram__title text-center mb-25">#bakuoxfordschool</h2>
+        <div class="instagram__gallery">
+                <div class="instagram__gallery-default owl-carousel">
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta1.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta2.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta3.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta4.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta5.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta6.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta7.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta8.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta9.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta10.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" class="instagram__link position-relative">
+                        <img src="frq-templates/img/insta11.png" alt="insta img">
+                        <div class="instagram__overlay position-absolute">
+                            <span class="instagram__overlay-info">
+                                <img src="frq-templates/img/insta.png" alt="insta png" class="instagram__overlay-img">
+                                <p>@bakuoxfordschool</p>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </section>
 </main>
         <footer>
 

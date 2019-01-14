@@ -1,0 +1,103 @@
+.partnerImg {
+    max-height: 41px !important;
+}
+
+.slideImg {
+    width: 100% !important;
+}
+
+#first_calendar, #second_calendar {
+    overflow: hidden;
+}
+
+#cd-page-content {
+    display: none;
+    opacity: 0;
+}
+
+.calendar .calendar-header {
+    display: none;
+}
+
+
+.month-container.col-xs-3 {
+    margin-bottom: 50px !important;
+    width: 25%; 
+    float: left;
+}
+@media (max-width: 991px) {
+    .month-container.col-xs-3 {
+        width: 50%; 
+    } 
+}
+@media (max-width: 767px) {
+    .month-container.col-xs-3 {
+        width: 100%; 
+    } 
+}
+
+.calendar table.month tr td .day-content {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+th.month-title {
+    color: #68559e;
+
+    font-size: 2rem !important;
+    font-family: Lora-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.calendar table.month th.day-header {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 992px) {
+    .calendar .month-container {
+        min-width: 223px !important;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .calendar .month-container {
+        min-width: 250px !important;
+
+    }
+}
+
+@media only screen and (max-width: 537px) {
+    .calendar .month-container {
+        min-width: 100% !important;
+
+    }
+}
+
+.instagram_gallery .insta-link > img {
+    width: 270px !important;
+}
+
+@media (max-width: 767px) {
+    .instagram_gallery .insta-link > img {
+        width: 100% !important;
+    }
+}
+
+.calendarBody {
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+}
+
+p.help-block.form-field-error-label {
+    color: red;
+}
+
+.label_delete label{
+    display: none;
+}
+.dz-removing{
+    display: none;
+}

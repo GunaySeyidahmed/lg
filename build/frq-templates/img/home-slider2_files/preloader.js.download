@@ -1,0 +1,12 @@
+
+/*
+
+// page loading (preloader)
+jQuery(window).on("load", function () {
+    setTimeout(function () {
+        jQuery(".preloader").fadeOut("slow");
+        jQuery("#cd-page-content").css({"opacity": "1", "display": "block"});
+    }, 5000);
+
+});
+*/

@@ -1,3 +1,39 @@
 .page{
+  &__title{
+    color: $purple;
+    &--color{
 
+    }
+    &__font{
+      font-size: 3rem;
+    }
+  }
+  &__title-white{
+      &:before{
+        content: url('../../img/title1-white.png');
+        position: relative;
+        top: -4px;
+        margin-right: 10px;
+      }
+      &:after{
+        content: url('../../img/title2-white.png');
+        position: relative;
+        top: -4px;
+        margin-left: 10px;
+      }
+  }
+  &__title-purple{
+    &:before{
+      content: url('../../img/title2.png');
+      position: relative;
+      top: -4px;
+      margin-right: 10px;
+    }
+    &:after{
+      content: url('../../img/title1.png');
+      position: relative;
+      top: -4px;
+      margin-left: 10px;
+    }
+  }
 }

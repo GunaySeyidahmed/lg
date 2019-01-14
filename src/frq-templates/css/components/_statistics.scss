@@ -1,0 +1,24 @@
+.statistics{
+  background: url('../../../frq-templates/img/statisticsbg.png') no-repeat;
+  padding: 45px 0;
+  &__img{
+  }
+  &__item{
+
+  }
+  .owl-carousel .owl-item img{
+    margin: auto !important;
+    width: auto !important;
+  }
+  &__count{
+    font-size: 4.9rem;
+    line-height: 1;
+    color: rgba(250,235,235,.95);
+  }
+  &__text{
+    color: rgba(250,235,235,.95);
+    font-size: 1.3rem;
+    margin-top: 15px;
+    line-height: 1;
+  }
+}

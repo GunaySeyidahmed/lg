@@ -1,0 +1,73 @@
+.instagram{
+  overflow: hidden;
+  &__gallery{
+    height: 630px;
+    .owl-item{
+      height: 630px;
+      display: flex;
+      align-items: center;
+      .item{
+        width: 100%;
+        float: left;
+      }
+    }
+  }
+  &__gallery-default{
+    display: flex!important;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: auto;
+  }
+
+  &__overlay{
+    background-color: rgba(43,32,75,.7);
+    min-width: 100%;
+    min-height: calc(100% - 30px);
+    max-height: calc(100% - 30px);
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 15px 0;
+    filter: alpha(opacity=0);
+    transition: all .4s ease;
+    opacity: 0;
+  }
+
+  &__link{
+    display: block;
+    padding: 15px 0;
+    width: 100%;
+    float: left;
+    &:hover{
+      .instagram__overlay{
+        opacity: 1;
+      }
+    }
+  }
+
+  &__overlay-info{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    transform: translateX(-50%) translateY(-50%);
+    p{
+      margin-bottom: 0;
+      margin-top: 10px;
+      font-size: 1.6rem;
+      color: #fff;
+      line-height: 1.2;
+    }
+  }
+  &__overlay-img{
+    width: auto !important;
+    margin: auto;
+  }
+}

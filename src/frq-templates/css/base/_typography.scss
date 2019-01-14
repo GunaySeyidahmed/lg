@@ -5,3 +5,77 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+.py-7{
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+}
+
+.py-90{
+	padding-top: 90px !important;
+	padding-bottom: 90px !important;
+}
+.px-0{
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mb-15{
+	margin-bottom: 15px;
+}
+
+.mb-25{
+	margin-bottom: 25px;
+}
+.mb-50{
+	margin-bottom: 50px;
+}
+.mb-30{
+	margin-bottom: 30px;
+}
+.mb-80{
+	margin-bottom: 80px;
+}
+
+.px-55{
+	padding-right: 55px;
+	padding-left: 55px;
+}
+.mr-10{
+	margin-right: 10px;
+}
+.white-text{
+	color: $white !important;
+}
+.middle-text{
+	font-size: 1.8rem;
+}
+.large-text{
+	font-size: 4rem;
+}
+.bg-darkRed{
+	background-color: $darkRed;
+}
+button{
+	&.hamburger{
+		&:focus{
+			outline: 0 !important;
+		}
+		.hamburger-inner{
+			background-color: $white !important;
+			width: 30px;
+			border-radius: 5px;
+			&:before,&:after{
+				background-color: $white !important;
+				width: 30px;
+			}
+		}
+		.hamburger--arrow.is-active .hamburger-inner.is-active{
+			background-color: $white !important;
+		}
+		.hamburger--arrow.is-active .hamburger-inner::before,::after {
+			background-color: $white !important;
+		}
+	}
+}

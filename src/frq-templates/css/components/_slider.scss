@@ -1,0 +1,115 @@
+.slider{
+  height: 635px;
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  .owl-carousel .owl-stage-outer {
+    overflow: hidden;
+    float: left;
+  }
+  &__item{
+    position: relative;
+  }
+  &__overlay{
+    height: 180px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-image: -webkit-linear-gradient(90deg,rgba(43,32,75,0) 0,rgba(43,32,75,.32) 32%,#2b204b 100%);
+    opacity: .8;
+  }
+  &__img{
+    height: 635px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+  &__info{
+    //padding: 15px;
+    //background-img: linear-gradient(90deg,rgba(43,32,75,0) 0,rgba(43,32,75,.32) 32%,#2b204b 100%);
+    max-width: 970px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 3px;
+    padding: 50px 25px;
+    @include respondmax(md){
+      width: 90%;
+    }
+  }
+  &__title{
+    @include respondmax(md){
+      font-size: 2.8rem;
+    }
+  }
+  &__description{
+    font-size: 2rem;
+    @include respondmax(md){
+      font-size: 1.6rem;
+    }
+  }
+  &__link{
+    text-decoration: none !important;
+    min-width: 200px;
+    padding:8px 25px;
+    border-radius: 3px;
+  }
+  .owl-dots{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    button:focus{
+      outline: 0;
+    }
+    .owl-dot{
+      &.active{
+        span{
+          background-color: $darkRed;
+        }
+      }
+      &:hover{
+        span{
+          background-color: $white;
+        }
+      }
+    }
+  }
+  .owl-nav{
+    //position: absolute !important;
+    //width: 100% !important;
+    //top: 44%;
+    //transform: translateY(-44%);
+    //z-index: 1050;
+    button{
+      color: $white !important;
+      &.owl-next{
+        right: 10px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &.owl-prev{
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      i{
+        font-size: 5rem;
+      }
+      &:hover{
+        background: none !important;
+        color: $darkRed !important;
+      }
+      &:focus{
+        outline: 0 !important;
+      }
+    }
+  }
+}
