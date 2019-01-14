@@ -1,5 +1,31 @@
 .instagram{
   overflow: hidden;
+  .page__title{
+    @include respondmax(md){
+      display: none;
+    }
+  }
+  &__title{
+    text-align: center;
+    font-size: 3rem;
+    color: $purple;
+    line-height: 2.333;
+    margin-top: 9px;
+  }
+  &__img-title{
+    &:before{
+      content: url('../../img/title2.png');
+      position: relative;
+      top: -4px;
+      margin-right: 10px;
+    }
+    &:after{
+      content: url('../../img/title1.png');
+      position: relative;
+      top: -4px;
+      margin-left: 10px;
+    }
+  }
   &__gallery{
     height: 630px;
     .owl-item{
@@ -9,6 +35,9 @@
       .item{
         width: 100%;
         float: left;
+      }
+      @include respondmax(sm){
+        height: 430px;
       }
     }
   }

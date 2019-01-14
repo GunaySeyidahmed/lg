@@ -9,31 +9,42 @@
     }
   }
   &__title-white{
-      &:before{
-        content: url('../../img/title1-white.png');
+      @include respondmin(md){
+        &:before{
+          content: url('../../img/title1-white.png');
+          position: relative;
+          top: -4px;
+          margin-right: 10px;
+        }
+        &:after{
+          content: url('../../img/title2-white.png');
+          position: relative;
+          top: -4px;
+          margin-left: 10px;
+        }
+      }
+  }
+  &__title-purple{
+    @include respondmin(md) {
+      &:before {
+        content: url('../../img/title2.png');
         position: relative;
         top: -4px;
         margin-right: 10px;
       }
-      &:after{
-        content: url('../../img/title2-white.png');
+      &:after {
+        content: url('../../img/title1.png');
         position: relative;
         top: -4px;
         margin-left: 10px;
       }
-  }
-  &__title-purple{
-    &:before{
-      content: url('../../img/title2.png');
-      position: relative;
-      top: -4px;
-      margin-right: 10px;
     }
-    &:after{
-      content: url('../../img/title1.png');
-      position: relative;
-      top: -4px;
-      margin-left: 10px;
+  }
+  &__responsive-title img{
+    display: none;
+    margin: auto;
+    @include respondmax(md){
+      display: block !important;
     }
   }
 }

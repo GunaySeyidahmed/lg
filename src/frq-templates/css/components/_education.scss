@@ -1,5 +1,6 @@
 .education{
-  background: url('../../../frq-templates/img/educationbg.png') no-repeat;
+  background: url('../../../frq-templates/img/educationbg.png');
+  background-size: cover;
   &__info{
     font-size: 1.8rem;
     color: $white;

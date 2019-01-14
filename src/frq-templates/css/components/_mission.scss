@@ -3,6 +3,9 @@
     padding: 0 15%;
     font-size: 1.8rem;
     color: $purple;
+    @include respondmax(md){
+      padding: 0 !important;
+    }
   }
   &__item{
     padding: 80px 20px 30px;

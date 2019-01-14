@@ -11,8 +11,12 @@
 }
 
 .py-90{
-	padding-top: 90px !important;
-	padding-bottom: 90px !important;
+	padding-top: 90px;
+	padding-bottom: 90px;
+  @include respondmax(md){
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
 }
 .px-0{
 	padding-right: 0 !important;
@@ -78,4 +82,7 @@ button{
 			background-color: $white !important;
 		}
 	}
+}
+.border-radius{
+	border-radius: 3px;
 }

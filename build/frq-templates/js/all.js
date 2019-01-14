@@ -61,8 +61,9 @@ $( document ).ready(function() {
     })
     $('.education__slider.owl-carousel').owlCarousel({
         loop:true,
-        margin:30,
-        nav:true,
+        margin:15,
+        nav:false,
+        dots:false,
         responsive:{
             0:{
                 items:1
@@ -72,8 +73,8 @@ $( document ).ready(function() {
             },
             1000:{
                 items:3,
-                autoplay: ($('.education__slider .item').length > 3),
-                mouseDrag: ($('.education__slider .item').length > 3),
+                autoplay: ($('.education__slider .item').length < 3),
+                mouseDrag: ($('.education__slider .item').length < 3),
             }
         }
     })
@@ -118,6 +119,7 @@ $( document ).ready(function() {
         loop:true,
         margin:10,
         nav:true,
+        autoplay:true,
         responsive:{
             0:{
                 items:1

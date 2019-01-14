@@ -1,0 +1,40 @@
+.footer{
+  padding: 50px 0;
+  background-color: $purple;
+  &__info{
+    @include respondmax(md){
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 15px;
+    }
+  }
+  &__list{
+    text-align: center;
+  }
+  &__logo-text{
+    font-size: 1.2rem;
+    color: #e6e6e6;
+    line-height: 1.667;
+    float: left;
+    width: 37%;
+    margin-top: 13px;
+    margin-left: 10px;
+  }
+  &__copyright{
+    clear: both;
+    font-size: 1.1rem;
+    color: #e6e6e6;
+    line-height: 2;
+  }
+  &__item{
+    padding: 5px 0;
+  }
+  &__link{
+    line-height: 18px;
+    text-decoration: none !important;
+  }
+  &__contact{
+    border-bottom: 1px solid #e5e5e5;
+  }
+}
