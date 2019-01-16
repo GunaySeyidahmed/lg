@@ -63,6 +63,11 @@
 }
 button{
 	&.hamburger{
+		z-index: 9999;
+		position: fixed;
+		top: 2px;
+		left: 17px;
+
 		&:focus{
 			outline: 0 !important;
 		}

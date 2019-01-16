@@ -186,24 +186,26 @@ body {
 .bg-darkRed {
   background-color: #962828; }
 
-button.hamburger:focus {
-  outline: 0 !important; }
-
-button.hamburger .hamburger-inner {
-  background-color: #fff !important;
-  width: 30px;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px; }
-  button.hamburger .hamburger-inner:before, button.hamburger .hamburger-inner:after {
+button.hamburger {
+  z-index: 9999;
+  position: fixed;
+  top: 2px;
+  left: 17px; }
+  button.hamburger:focus {
+    outline: 0 !important; }
+  button.hamburger .hamburger-inner {
     background-color: #fff !important;
-    width: 30px; }
-
-button.hamburger .hamburger--arrow.is-active .hamburger-inner.is-active {
-  background-color: #fff !important; }
-
-button.hamburger .hamburger--arrow.is-active .hamburger-inner::before, button.hamburger ::after {
-  background-color: #fff !important; }
+    width: 30px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px; }
+    button.hamburger .hamburger-inner:before, button.hamburger .hamburger-inner:after {
+      background-color: #fff !important;
+      width: 30px; }
+  button.hamburger .hamburger--arrow.is-active .hamburger-inner.is-active {
+    background-color: #fff !important; }
+  button.hamburger .hamburger--arrow.is-active .hamburger-inner::before, button.hamburger ::after {
+    background-color: #fff !important; }
 
 .border-radius {
   -webkit-border-radius: 3px;
@@ -436,7 +438,8 @@ button.hamburger .hamburger--arrow.is-active .hamburger-inner::before, button.ha
       padding: 0 !important; } }
 
 .mission__item {
-  padding: 80px 20px 30px; }
+  padding: 90px 20px 40px;
+  margin-top: 40px; }
   .mission__item--border {
     border: 1px solid #999; }
   .mission__item--border-radius {
@@ -469,7 +472,7 @@ button.hamburger .hamburger--arrow.is-active .hamburger-inner::before, button.ha
   width: 70px;
   position: absolute;
   left: 50%;
-  top: -30px;
+  top: 6px;
   -webkit-transform: translateX(-50%);
      -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -903,6 +906,9 @@ button.hamburger .hamburger--arrow.is-active .hamburger-inner::before, button.ha
     min-height: 100vh;
     overflow: auto;
     padding: 60px 38px 0 20px; }
+    @media (max-width: 767px) {
+      .menu__responsive-nav {
+        width: 100%; } }
   .menu__active {
     font-weight: bolder; }
   .menu__dropdown {

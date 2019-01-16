@@ -29,6 +29,9 @@
     min-height: 100vh;
     overflow: auto;
     padding: 60px 38px 0 20px;
+    @include respondmax(md){
+      width: 100%;
+    }
   }
   &__active{
     font-weight: bolder;

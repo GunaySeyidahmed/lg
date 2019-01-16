@@ -8,7 +8,8 @@
     }
   }
   &__item{
-    padding: 80px 20px 30px;
+    padding: 90px 20px 40px;
+    margin-top: 40px;
     &--border{
       border:1px solid $gray;
     }
@@ -38,7 +39,7 @@
     width: 70px;
     position: absolute;
     left: 50%;
-    top: -30px;
+    top: 6px;
     transform: translateX(-50%);
   }
   &__img{
